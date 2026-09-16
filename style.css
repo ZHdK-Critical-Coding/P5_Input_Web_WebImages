@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+canvas {
+  display: block;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.imageContainer {
+  position :absolute;
+  top: 100px;
+  left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imageItem {
+  border: 1px solid;
+}
