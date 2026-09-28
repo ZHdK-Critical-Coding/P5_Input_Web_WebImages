@@ -13,6 +13,11 @@ Voraussetzungen: Chrome und eine Internetverbindung. Weil die Seite von
 einer fremden Domain geladen wird, blockiert der Browser die Anfrage
 normalerweise (CORS).
 
+Bibliotheken (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (eingebunden,
+nicht verwendet).
+
+## Ausführen
+
 1. Den Ordner in Visual Studio Code öffnen und Live Server starten (in der
    Statusleiste auf **Go Live** klicken).
 2. Im Bereich **Run and Debug** die Konfiguration **Launch Chrome (no
@@ -22,9 +27,6 @@ normalerweise (CORS).
 
 Das unsichere Chrome-Fenster nur für diesen Sketch verwenden, nicht zum
 normalen Surfen.
-
-Bibliotheken (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (eingebunden,
-nicht verwendet).
 
 ## Coding-Hilfe
 

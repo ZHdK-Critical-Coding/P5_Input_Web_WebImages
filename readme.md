@@ -11,6 +11,10 @@ A starting point for scraping and remixing visual material from websites.
 Requirements: Chrome and an internet connection. Because the page is
 fetched cross-origin, the browser normally blocks the request (CORS).
 
+Libraries (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (included, not used).
+
+## How to Run
+
 1. Open the folder in Visual Studio Code and start Live Server (click
    **Go Live** in the status bar).
 2. In the **Run and Debug** panel, start the configuration **Launch Chrome
@@ -19,8 +23,6 @@ fetched cross-origin, the browser normally blocks the request (CORS).
 3. Enter a URL and click **Fetch Images**.
 
 Only use the insecure Chrome window for this sketch, not for normal browsing.
-
-Libraries (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (included, not used).
 
 ## Coding Help
 
